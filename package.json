@@ -22,11 +22,25 @@
   },
   "dependencies": {
     "@nestjs/common": "^7.6.15",
+    "@nestjs/config": "^3.1.1",
     "@nestjs/core": "^7.6.15",
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/mongoose": "^10.0.2",
+    "@nestjs/passport": "^10.0.3",
     "@nestjs/platform-express": "^7.6.15",
+    "abort-controller": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "brcypt": "^1.0.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.3",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^6.6.6"
+    "rxjs": "^7.8.1",
+    "underscore": "^1.13.6"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.6.0",
@@ -64,7 +78,7 @@
     "collectCoverageFrom": [
       "**/*.(t|j)s"
     ],
-    "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
+    "coverageDirectory": "../coverage"
+    
   }
 }
